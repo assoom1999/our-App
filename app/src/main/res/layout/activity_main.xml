@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_tv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="@string/my_library"
+        android:textColor="#331"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cources_btn"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:background="@drawable/shape"
+            android:text="@string/my_cources" />
+
+        <Button
+            android:id="@+id/subject_btn"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:background="@drawable/shape"
+            android:margin_end="20dp"
+
+            android:text="@string/my_subjects" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/alarm_btn"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:background="@drawable/shape"
+            android:text="@string/my_alarm"
+
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/table_btn"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+
+            android:background="@drawable/shape"
+
+            android:text="@string/my_table" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/encourage_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+
+            android:text="@string/my_encourage" />
+    </LinearLayout>
+</LinearLayout>

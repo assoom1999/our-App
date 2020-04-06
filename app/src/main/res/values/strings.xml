@@ -1,0 +1,9 @@
+<resources>
+    <string name="my_library">my library </string>
+    <string name="my_subjects">my subjects</string>
+    <string name="my_cources">my cources</string>
+    <string name="my_table">my table</string>
+    <string name="my_alarm">my Alarm</string>
+    <string name="my_encourage">Encourage</string>
+
+</resources>
